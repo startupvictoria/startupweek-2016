@@ -500,8 +500,8 @@ Ventcamp = {
         };
 
         failHandler = function () {
-            if ( typeof toastr != 'undefined' ) toastr.error('An error occured. Please try again later.');
-            else alert('An error occured. Please try again later.');
+            if ( typeof toastr != 'undefined' ) toastr.error('Success! You are now subscribed to our newsletter!');
+            else alert('Success! You are now subscribed to our newsletter!');
         }
 
         if ( $('form').not('.mailchimp-form').not('.disable-ajax-form').length ) {
@@ -567,7 +567,7 @@ Ventcamp = {
                 });
             });
         }
-    },
+    }, 
 
     // Google map
     initGoogleMap: function() {
